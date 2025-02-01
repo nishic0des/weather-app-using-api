@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const temp = document.getElementById("temperature");
   const desc = document.getElementById("description");
   const error = document.getElementById("error-message");
-
-  const API_KEY = "5b296a276ebedcecf658b46b24fec61a"; //env
+// your api ket goes here
+  const API_KEY = ""; 
   getw.addEventListener("click", async () => {
     const city = cityip.value.trim();
     if (!city) return;
